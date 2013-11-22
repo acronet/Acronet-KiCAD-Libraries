@@ -36,6 +36,17 @@ K OPTODECOUPLER
 F http://www.avagotech.com/docs/AV02-3462EN
 $ENDCMP
 #
+$CMP AD8607
+D Dual Op amp (low noise)
+K ampliop
+F http://www.analog.com/static/imported-files/data_sheets/AD8603_8607_8609.pdf
+$ENDCMP
+#
+$CMP ADA4075
+D Very low noise audio op amp
+F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
+$ENDCMP
+#
 $CMP ADP3338AKCZ-33RL7
 D Analog Devices ADP3338 Low dropout (LDO), anyCAP Voltage Regulator
 K VOLTAGE REGULATOR
@@ -132,6 +143,12 @@ K SIMPLE SWITCHER
 F http://www.ti.com/lit/gpn/lm22676
 $ENDCMP
 #
+$CMP LM285
+D Texas Instruments 2.5V Shunt Voltage Reference
+K VOLTAGE REFERENCE
+F http://www.ti.com/lit/ds/symlink/lm285-2.5.pdf
+$ENDCMP
+#
 $CMP LOGO
 D LOGO
 K LOGO
@@ -224,6 +241,13 @@ $CMP SP338E
 D Exar SP338E RS-232/RS-485/RS-422 Transceiver
 K TRANSCEIVER
 F http://www.exar.com/common/content/document.ashx?id=20834&languageid=1033
+$ENDCMP
+#
+#
+$CMP TLE2425
+D Texas Instrument component for virtual ground.
+K VIRTUAL GROUND
+F http://www.ti.com/lit/ds/symlink/tle2425.pdf
 $ENDCMP
 #
 $CMP TPS54239EDDAX
