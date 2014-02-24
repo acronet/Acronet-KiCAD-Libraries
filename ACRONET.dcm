@@ -37,14 +37,9 @@ F http://www.avagotech.com/docs/AV02-3462EN
 $ENDCMP
 #
 $CMP AD8607
-D Dual Op amp (low noise)
-K ampliop
+D Analog Devices AD8607 Low Noise Operational Amplifier
+K OPERATIONAL AMPLIFIER
 F http://www.analog.com/static/imported-files/data_sheets/AD8603_8607_8609.pdf
-$ENDCMP
-#
-$CMP ADA4075
-D Very low noise audio op amp
-F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
 $CMP ADP3338AKCZ-33RL7
@@ -119,6 +114,12 @@ K CARBON MONOXIDE SENSOR
 F http://www.sgxsensortech.com/site/wp-content/uploads/2012/10/EC4-500-CO1.pdf
 $ENDCMP
 #
+$CMP FT232RQ
+D FTDI FT232RQ USB to Serial UART Interface
+K USB SERIAL UART
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
 $CMP LD2981CM50TR
 D ST LD2981CM50TR Ultra Low Drop Voltage Regulator
 K VOLTAGE REGULATOR
@@ -184,6 +185,12 @@ K POLLUTION SENSOR
 F http://www.sgxsensortech.com/site/wp-content/uploads/2013/03/0278_Datasheet-MiCS-4514.pdf
 $ENDCMP
 #
+$CMP MM232R
+D FTDI MM232R USB - Serial UART Development Module 
+K USB SERIAL UART MODULE
+F http://www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_MM232R.pdf
+$ENDCMP
+#
 $CMP MOUNTING_HOLE
 D MOUNTING_HOLE
 K MOUNTING HOLE
@@ -205,6 +212,12 @@ $CMP O3-B4
 D Alphasense O3-B4 Ozone 4-Electrode Sensor
 K OZONE SENSOR
 F http://www.alphasense.com/environmental-sensors/pdf/O3B4.pdf
+$ENDCMP
+#
+$CMP PCF2127AT
+D NXP PCF2127AT Integrated RTC, TCXO and quartz crystal
+K QUARTZ CRYSTAL
+F http://www.nxp.com/documents/data_sheet/PCF2127AT.pdf
 $ENDCMP
 #
 $CMP PDTC143XU
@@ -243,9 +256,8 @@ K TRANSCEIVER
 F http://www.exar.com/common/content/document.ashx?id=20834&languageid=1033
 $ENDCMP
 #
-#
 $CMP TLE2425
-D Texas Instrument component for virtual ground.
+D Texas Instrument TLE2425 Precision Virtual Ground
 K VIRTUAL GROUND
 F http://www.ti.com/lit/ds/symlink/tle2425.pdf
 $ENDCMP
@@ -296,6 +308,18 @@ $CMP UFL-R-SMT-1(10)
 D HRS UFL-R-SMT-1(10) UFL Coaxial Straight Jack Connector
 K JACK CONNECTOR
 F http://www.hirose.co.jp/cataloge_hp/e32119372.pdf
+$ENDCMP
+#
+$CMP M95
+D Quectel M95 Quad-band GSM/GPRS module
+K GSM GPRS
+F http://www.quectel.com/product/prodetail.aspx?id=7
+$ENDCMP
+#
+$CMP C707_10M006_049_2
+D Amphenol-TuchelElectronics C707 10M006 049 2, 6-circuit SIM Card HOLDER
+K SIM CARD HOLDER
+F http://www.amphenol.info/downloads/C707_10M006_049_2.pdf
 $ENDCMP
 #
 #End Doc Library
