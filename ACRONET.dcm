@@ -233,7 +233,7 @@ F http://www.nxp.com/documents/data_sheet/PRTR5V0U4Y.pdf
 $ENDCMP
 #
 $CMP SHT25
-D Sensirion SHT25, Humidity and Temperature Sensor IC
+D Sensirion SHT25, Humidity and Temperature Sensor I2C
 K HUMIDITY TEMPERATURE SENSOR
 F http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT25_Datasheet_V2.pdf
 $ENDCMP
@@ -320,6 +320,24 @@ $CMP C707_10M006_049_2
 D Amphenol-TuchelElectronics C707 10M006 049 2, 6-circuit SIM Card HOLDER
 K SIM CARD HOLDER
 F http://www.amphenol.info/downloads/C707_10M006_049_2.pdf
+$ENDCMP
+#
+$CMP LP2985IM5-3.3/NOPB
+D Texas Instruments LP2985 3.3V Ultra-Low Dropout Regulator
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
+$ENDCMP
+#
+$CMP BMP180
+D Bosch BMP180, Digital Pressure Sensor I2C
+K PRESSURE SENSOR
+F https://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf
+$ENDCMP
+#
+$CMP LP2985IM5-5.0/NOPB
+D Texas Instruments LP2985 5.0V Ultra-Low Dropout Regulator
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
 $ENDCMP
 #
 #End Doc Library
