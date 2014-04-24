@@ -340,4 +340,16 @@ K VOLTAGE REGULATOR
 F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
 $ENDCMP
 #
+$CMP BTM7810K
+D infinenon BTM7810K H-Bridge Driver
+K H-BRIDGE DRIVER 
+F http://www.infineon.com/dgdl/BTM7810K_DS_10.pdf?folderId=db3a3043156fd5730116144c5d101c30&fileId=db3a30431be39b97011bea18e9217fee&ack=t
+$ENDCMP
+#
+$CMP ATMEGA168A-AU
+D Atmel ATmega168A-AU Low-Power 8-bit Microcontroller
+K MICROCONTROLLER
+F http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
