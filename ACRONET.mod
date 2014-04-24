@@ -92,6 +92,8 @@ DFN_SHT2x+SF2-NPTH
 dresden-elektronik_0402
 LGA_BMP180
 MPT0506254
+TO263-15
+TQFP32_08_S
 $EndINDEX
 $MODULE -436P55
 Po 0 0 0 15 527250D5 00000000 ~~
@@ -7878,4 +7880,389 @@ Ne 0 ""
 Po 12.7 0
 $EndPAD
 $EndMODULE MPT0506254
+$MODULE TO263-15
+Po 0 0 0 15 53565981 00000000 ~~
+Li TO263-15
+Cd 18-pin Plastic Transistor Single Outline Package TO263-15 (SMD)
+Kw TRANSISTOR SINGLE OUTLINE
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -16 1 1 0 0.2 N I 21 N "TO263-15"
+T1 0 4.3 1 1 0 0.2 N I 21 N "VAL**"
+DS 4.3 -12.725 4.9 -12.725 0.14986 21
+DS -4.9 -12.725 -4.3 -12.725 0.14986 21
+DS -10.9 -12.725 -10.9 -3.275 0.14986 21
+DS -10.9 -3.275 10.9 -3.275 0.14986 21
+DS 10.9 -12.725 10.9 -3.275 0.14986 21
+$PAD
+Sh "8" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.4 0
+$EndPAD
+$PAD
+Sh "10" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 0
+$EndPAD
+$PAD
+Sh "11" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 0
+$EndPAD
+$PAD
+Sh "12" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.6 0
+$EndPAD
+$PAD
+Sh "13" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "14" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 0
+$EndPAD
+$PAD
+Sh "15" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.8 0
+$EndPAD
+$PAD
+Sh "1" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.8 0
+$EndPAD
+$PAD
+Sh "2" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8.4 0
+$EndPAD
+$PAD
+Sh "3" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7 0
+$EndPAD
+$PAD
+Sh "4" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.6 0
+$EndPAD
+$PAD
+Sh "5" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 0
+$EndPAD
+$PAD
+Sh "6" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 0
+$EndPAD
+$PAD
+Sh "7" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.4 0
+$EndPAD
+$PAD
+Sh "16" R 5.8 9.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.9 -9.25
+$EndPAD
+$PAD
+Sh "18" R 5.8 9.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.9 -9.25
+$EndPAD
+$PAD
+Sh "17" R 8.4 9.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -9.25
+$EndPAD
+$EndMODULE TO263-15
+$MODULE TQFP32_08_S
+Po 0 0 0 15 535688B7 00000000 ~~
+Li TQFP32_08_S
+Cd 32-pin Thin Profile Plastic Quad Flat Package (TQFP), 0.8mm Lead Pitch, Simple SilkScreen (SMD)
+Kw THIN PROFILE PLASTIC QUAD FLAT PACKAGE
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1 1 0 0.2 N I 21 N "TQFP32_08_S"
+T1 0 7.3 1 1 0 0.2 N I 21 N "VAL**"
+DS -3.55 -3.15 -3.15 -3.55 0.14986 21
+DS 3.15 3.55 3.55 3.55 0.14986 21
+DS 3.55 3.55 3.55 3.15 0.14986 21
+DS -3.55 3.15 -3.55 3.55 0.14986 21
+DS -3.55 3.55 -3.15 3.55 0.14986 21
+DS 3.55 -3.55 3.15 -3.55 0.14986 21
+DS 3.55 -3.15 3.55 -3.55 0.14986 21
+DC -2.8 -2.8 -2.55 -2.8 0.2 21
+$PAD
+Sh "8" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 2.8
+$EndPAD
+$PAD
+Sh "7" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 2
+$EndPAD
+$PAD
+Sh "6" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 1.2
+$EndPAD
+$PAD
+Sh "5" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 0.4
+$EndPAD
+$PAD
+Sh "4" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 -0.4
+$EndPAD
+$PAD
+Sh "3" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 -1.2
+$EndPAD
+$PAD
+Sh "2" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 -2
+$EndPAD
+$PAD
+Sh "1" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.45 -2.8
+$EndPAD
+$PAD
+Sh "24" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 -2.8
+$EndPAD
+$PAD
+Sh "17" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 2.8
+$EndPAD
+$PAD
+Sh "18" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 2
+$EndPAD
+$PAD
+Sh "19" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 1.2
+$EndPAD
+$PAD
+Sh "20" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 0.4
+$EndPAD
+$PAD
+Sh "21" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 -0.4
+$EndPAD
+$PAD
+Sh "22" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 -1.2
+$EndPAD
+$PAD
+Sh "23" R 2 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.45 -2
+$EndPAD
+$PAD
+Sh "32" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 -4.45
+$EndPAD
+$PAD
+Sh "31" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -4.45
+$EndPAD
+$PAD
+Sh "30" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 -4.45
+$EndPAD
+$PAD
+Sh "29" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 -4.45
+$EndPAD
+$PAD
+Sh "28" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 -4.45
+$EndPAD
+$PAD
+Sh "27" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 -4.45
+$EndPAD
+$PAD
+Sh "26" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -4.45
+$EndPAD
+$PAD
+Sh "25" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 -4.45
+$EndPAD
+$PAD
+Sh "9" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 4.45
+$EndPAD
+$PAD
+Sh "10" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 4.45
+$EndPAD
+$PAD
+Sh "11" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 4.45
+$EndPAD
+$PAD
+Sh "12" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 4.45
+$EndPAD
+$PAD
+Sh "13" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 4.45
+$EndPAD
+$PAD
+Sh "14" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 4.45
+$EndPAD
+$PAD
+Sh "15" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 4.45
+$EndPAD
+$PAD
+Sh "16" R 2 0.45 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 4.45
+$EndPAD
+$EndMODULE TQFP32_08_S
 $EndLIBRARY
