@@ -352,4 +352,16 @@ K MICROCONTROLLER
 F http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet.pdf
 $ENDCMP
 #
+$CMP LTC3626
+D 20V, 2.5A Synchronous Monolithic Step-Down Regulator Linear Technology LTC3626 
+K REGULATOR
+F http://cds.linear.com/docs/en/datasheet/3626f.pdf
+$ENDCMP
+#
+$CMP LM43602
+D Texas Instruments LM43602, 3.5V-36V 2A Synchronous Step-Down Voltage Converter
+K VOLTAGE CONVERTER
+F http://www.ti.com/lit/ds/symlink/lm43602.pdf
+$ENDCMP
+#
 #End Doc Library
