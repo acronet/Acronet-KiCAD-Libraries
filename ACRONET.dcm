@@ -364,4 +364,100 @@ K VOLTAGE CONVERTER
 F http://www.ti.com/lit/ds/symlink/lm43602.pdf
 $ENDCMP
 #
+$CMP TPS7A6350-Q1
+D Texas Instruments TPS7A6350-Q1 300mA 40V Low-Dropout Regultator
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/tps7a6350-q1.pdf
+$ENDCMP
+#
+$CMP BZX84
+D NXP BZX84 Low-Power Voltage Regulator Diode
+K ZENER DIODE
+F http://www.nxp.com/documents/data_sheet/BZX84_SER.pdf
+$ENDCMP
+#
+$CMP NCP4589DSQ33T1G
+D ON Semiconductor NCP4589DSQ33T1G, 300 mA, Tri-Mode, LDO Linear Voltage Regulator, 3.3 V, SOT-353
+K LDO VOLTAGE REGULATOR
+F http://www.onsemi.com/pub_link/Collateral/NCP4589-D.PDF
+$ENDCMP
+#
+$CMP TLV1117LV28DCYR
+D Texas Instruments TLV1117LV28DCYR Low-Dropout Regulator (LDO)
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/tlv1117lv12.pdf
+$ENDCMP
+#
+$CMP TS321AILT
+D ST Microelectronics TS321AILT Low-power single Operational Amplifier  
+K OPERATIONAL AMPLIFIER
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001647.pdf
+$ENDCMP
+#
+$CMP LM7341MF-NOPB
+D Texas Instruments LM7341MF/NOPB Operational Amplifier
+K OPERATIONAL AMPLIFIER
+F http://www.ti.com/lit/ds/symlink/lm7341.pdf
+$ENDCMP
+#
+$CMP NPN-SOT323
+K NPN TRANSISTOR
+$ENDCMP
+#
+$CMP MOSFET_P-TO252-3
+K MOFET P CHANNEL
+$ENDCMP
+#
+$CMP HCNR201-300E
+D Avago HCNR201-300E High-Linearity Analog Optocoupler
+K OCTOCOUPLER
+F http://www.avagotech.com/docs/AV02-0886EN
+$ENDCMP
+#
+$CMP PNP-SOT223
+K PNP TRANSISTOR
+$ENDCMP
+#
+$CMP IFX27001TF-V50
+D Infineon IFX27001TF V50 Linear Voltage Regulator
+K VOLTAGE REGULATOR
+F http://www.infineon.com/dgdl/Infineon-IFX27001-DS-v01_01-en.pdf?folderId=5546d4694909da4801490a07012f053b&fileId=db3a304320d39d590120f62f022a6a03&ack=t
+$ENDCMP
+#
+$CMP LTC1144
+D Linear Technology LTC 1144 Switched-Capacitor Wide Input Range Voltage Converter with Shutdown
+K VOLTAGE CONVERTER
+F http://cds.linear.com/docs/en/datasheet/1144fa.pdf
+$ENDCMP
+#
+$CMP LT6654
+D Linear Technology LT6654 Precision Wide Supply High Output Drive Low Noise Reference
+K VOLTAGE REFERENCE
+F http://cds.linear.com/docs/en/datasheet/6654fd.pdf
+$ENDCMP
+#
+$CMP LT1054
+D Linear Technology LT1054 Switched-Capacitor Voltage Converter with Regulator
+K VOLTAGE CONVERTER REGULATOR
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP 47553-0001
+D Molex 47553-0001, 1.27mm-pitch 6-circuit SIM Card HOLDER
+K SIM CARD HOLDER
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/0475530001_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP SIM800H
+D SIMCom SIM800H Quad-band GSM/GPRS Module
+K GSM GPRS MODULE
+F http://www.simcom.ee/documents/gsm-gprs/sim800h/SIM800%20Series_AT%20Command%20Manual_V1.01.pdf
+$ENDCMP
+#
+$CMP EMIF03-SIM02M8
+D ST EMIF03-SIM02M8 SIM card EMI Low-pass Filter
+K SIM CARD ESD SUPRESSOR FILTER
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00172780.pdf
+$ENDCMP
+#
 #End Doc Library
