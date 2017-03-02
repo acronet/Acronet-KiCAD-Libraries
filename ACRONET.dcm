@@ -6,6 +6,12 @@ K SWITCH
 F http://www.mentor-components.com/produktpdf/?katalog=tk&pdf=15.pdf&id=3373
 $ENDCMP
 #
+$CMP 1513317-1
+D Te Connectivity 1513317-1 824 –960 & 1710 –2170 MHz Penta Band Antenna (UMTS, US Dual, EU Dual, and WCDMA)
+K ANTENNA
+F http://www.te.com/usa-en/product-1513317-1.html
+$ENDCMP
+#
 $CMP 218-4LPST
 D CTS 218-4LPST 4-Position DIP Switch
 K DIP SWITCH
@@ -18,6 +24,18 @@ K SIM CARD HOLDER
 F http://www.molex.com/webdocs/datasheets/pdf/en-us/0473882001_MEMORY_CARD_SOCKET.pdf
 $ENDCMP
 #
+$CMP 47553-0001
+D Molex 47553-0001, 1.27mm-pitch 6-circuit SIM Card HOLDER
+K SIM CARD HOLDER
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/0475530001_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP 47948-0001
+D Molex 2.4GHz Surface Mount Device 50 Ohm On-Ground Antenna 
+K ANTENNA
+F http://www.molex.com/pdm_docs/ps/PS-47948-001.pdf
+$ENDCMP
+#
 $CMP 74LVC1G3157GW
 D NXP 74LVC1G3157GW 2-Channel Analog Multiplexer/Demultiplexer
 K ANALOG MULTIPLEXER DEMULTIPLEXER
@@ -28,6 +46,18 @@ $CMP 74LVC1T45GW
 D NXP 74LVC1T45GW; Dual supply translating transceiver; 3-state
 K TRANSCEIVER
 F http://www.nxp.com/documents/data_sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
+$CMP 78723-1001
+D Molex 78723-1001, 2.54mm-pitch 6-circuit Micro-SIM Socket
+K SIM SOCKET
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0787231001_MEMORY_CARD_SOCKET.xml
+$ENDCMP
+#
+$CMP 9603
+D Iridium 9603 SBD Transceiver
+K SBD Transceiver
+F https://www.networkinv.com/wp-content/uploads/2012/08/Iridium-9603-Developers-Guide-v2-1.pdf
 $ENDCMP
 #
 $CMP ACPL-M21L
@@ -54,6 +84,12 @@ K VOLTAGE REFERENCE
 F http://www.analog.com/static/imported-files/data_sheets/ADR3412_ADR3420_ADR3425_ADR3430_ADR3433_ADR3440_ADR3450.pdf
 $ENDCMP
 #
+$CMP AMC1200BDWV
+D Texas Instruments AMC1200BDWV Fully-Differential Isolation Amplifier
+K AMPLIFIER
+F http://www.ti.com/lit/ds/symlink/amc1200.pdf
+$ENDCMP
+#
 $CMP AT24C1024BN-SH-B
 D Atmel AT24C1024BN-SH-B (Two-Wire Serial EEPROM)
 K SERIAL EEPROM
@@ -66,10 +102,10 @@ K SERIAL EEPROM
 F http://www.atmel.com/Images/Atmel-8812-SEEPROM-AT24CM01-Datasheet.pdf
 $ENDCMP
 #
-$CMP ATXMEGA256A3BU
-D Atmel ATxmega256A3BU, 8/16-bit Microcontroller
+$CMP ATMEGA168A-AU
+D Atmel ATmega168A-AU Low-Power 8-bit Microcontroller
 K MICROCONTROLLER
-F http://www.atmel.com/Images/Atmel-8362-8-and-16bit-AVR-microcontroller-ATxmega256A3BU_datasheet.pdf
+F http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet.pdf
 $ENDCMP
 #
 $CMP AVR-JTAG-ICE
@@ -78,10 +114,38 @@ K AVR JTAG ICE CONNECTOR
 F http://www.atmel.com/Images/doc2475.pdf
 $ENDCMP
 #
+$CMP BMP180
+D Bosch BMP180, Digital Pressure Sensor I2C
+K PRESSURE SENSOR
+F https://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf
+$ENDCMP
+#
+$CMP BTM7810K
+D infinenon BTM7810K H-Bridge Driver
+K H-BRIDGE DRIVER 
+F http://www.infineon.com/dgdl/BTM7810K_DS_10.pdf?folderId=db3a3043156fd5730116144c5d101c30&fileId=db3a30431be39b97011bea18e9217fee&ack=t
+$ENDCMP
+#
+$CMP BZX84
+D NXP BZX84 Low-Power Voltage Regulator Diode
+K ZENER DIODE
+F http://www.nxp.com/documents/data_sheet/BZX84_SER.pdf
+$ENDCMP
+#
+$CMP C707_10M006_049_2
+D Amphenol-TuchelElectronics C707 10M006 049 2, 6-circuit SIM Card HOLDER
+K SIM CARD HOLDER
+F http://www.amphenol.info/downloads/C707_10M006_049_2.pdf
+$ENDCMP
+#
 $CMP CO-B4
 D Alphasense CO-B4 Carbon Monoxide 4-Electrode Sensor
 K CARBON MONOXIDE SENSOR
 F http://www.alphasense.com/environmental-sensors/pdf/COB4.pdf
+$ENDCMP
+#
+$CMP D-1
+D Diode
 $ENDCMP
 #
 $CMP DERFMEGA128-22A02
@@ -94,6 +158,12 @@ $CMP DERFMEGA128-22C02
 D dresden elektronik deRFmega128-22C02 2.4GHz Radio Module
 K RADIO MODULE
 F http://www.dresden-elektronik.de/funktechnik/products/radio-modules/avr-single-chip-modules/description/?L=1&eID=dam_frontend_push&docID=1201
+$ENDCMP
+#
+$CMP DM3D-SF
+D Hirose DM3D-SF MicroSD Push-Pull Connector
+K MICROSD CONNECTOR
+F http://www.hirose-connectors.com/connectors/H204ProductListCompareNew.aspx?clprm=06090025800&mode=%EF%BC%90%EF%BC%94
 $ENDCMP
 #
 $CMP EC4-2000-CO
@@ -114,10 +184,59 @@ K CARBON MONOXIDE SENSOR
 F http://www.sgxsensortech.com/site/wp-content/uploads/2012/10/EC4-500-CO1.pdf
 $ENDCMP
 #
+$CMP EMIF03-SIM02M8
+D ST EMIF03-SIM02M8 SIM card EMI Low-pass Filter
+K SIM CARD ESD SUPRESSOR FILTER
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00172780.pdf
+$ENDCMP
+#
+$CMP FIDUCIAL_POINT
+D FIDUCIAL_POINT
+F FIDUCIAL POINT
+$ENDCMP
+#
+$CMP FPF2701MX
+D Fairchild FPF2701MX current-limit load switch
+K SWITCH
+F https://www.fairchildsemi.com/datasheets/FP/FPF2701.pdf
+$ENDCMP
+#
 $CMP FT232RQ
 D FTDI FT232RQ USB to Serial UART Interface
 K USB SERIAL UART
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP GND1
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND2
+K POWER, PWR
+$ENDCMP
+#
+$CMP HCNR201-300E
+D Avago HCNR201-300E High-Linearity Analog Optocoupler
+K OCTOCOUPLER
+F http://www.avagotech.com/docs/AV02-0886EN
+$ENDCMP
+#
+$CMP IFX27001TF-V50
+D Infineon IFX27001TF V50 Linear Voltage Regulator
+K VOLTAGE REGULATOR
+F http://www.infineon.com/dgdl/Infineon-IFX27001-DS-v01_01-en.pdf?folderId=5546d4694909da4801490a07012f053b&fileId=db3a304320d39d590120f62f022a6a03&ack=t
+$ENDCMP
+#
+$CMP IRF7324TRPBF
+D International Rectifier IRF7324TRPBF Dual P-Channel MOSFET
+K MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7324.pdf
+$ENDCMP
+#
+$CMP ISL28022FUZ
+D Intersil ISL28022 Precision Digital Power Monitor
+K POWER MONITOR
+F http://www.intersil.com/content/dam/Intersil/documents/isl2/isl28022.pdf
 $ENDCMP
 #
 $CMP LD2981CM50TR
@@ -130,6 +249,10 @@ $CMP LE33CZ
 D ST LE33CZ 3.3V Low Drop Voltage Regulator 
 K VOLTAGE REGULATOR
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000545.pdf?s_searchtype=keyword
+$ENDCMP
+#
+$CMP LED-1
+K LED
 $ENDCMP
 #
 $CMP LM22670MRE-ADJ
@@ -150,6 +273,24 @@ K VOLTAGE REFERENCE
 F http://www.ti.com/lit/ds/symlink/lm285-2.5.pdf
 $ENDCMP
 #
+$CMP LM334M
+D Texas Instruments 3-Terminal Adjustable Current Sources
+K CURRENT SOURCE
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm134.pdf
+$ENDCMP
+#
+$CMP LM43602
+D Texas Instruments LM43602, 3.5V-36V 2A Synchronous Step-Down Voltage Converter
+K VOLTAGE CONVERTER
+F http://www.ti.com/lit/ds/symlink/lm43602.pdf
+$ENDCMP
+#
+$CMP LM7341MF-NOPB
+D Texas Instruments LM7341MF/NOPB Operational Amplifier
+K OPERATIONAL AMPLIFIER
+F http://www.ti.com/lit/ds/symlink/lm7341.pdf
+$ENDCMP
+#
 $CMP LOGO
 D LOGO
 K LOGO
@@ -161,28 +302,76 @@ K VOLTAGE REGULATOR
 F http://www.ti.com/lit/ds/symlink/lp2981a-30.pdf
 $ENDCMP
 #
+$CMP LP2985IM5-3.3/NOPB
+D Texas Instruments LP2985 3.3V Ultra-Low Dropout Regulator
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
+$ENDCMP
+#
+$CMP LP2985IM5-5.0/NOPB
+D Texas Instruments LP2985 5.0V Ultra-Low Dropout Regulator
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
+$ENDCMP
+#
+$CMP LT1054
+D Linear Technology LT1054 Switched-Capacitor Voltage Converter with Regulator
+K VOLTAGE CONVERTER REGULATOR
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1790
+D Linear Technology LT1790 Low Dropout Voltage Reference
+K VOLTAGE REFERENCE
+F http://cds.linear.com/docs/en/datasheet/1790fb.pdf
+$ENDCMP
+#
 $CMP LT3652EMSE
 D Linear Technology LT3652EMSE Power Tracking 2A Battery Charger for Solar Power
 K BATTERY CHARGER
 F http://cds.linear.com/docs/en/datasheet/3652fd.pdf
 $ENDCMP
 #
-$CMP MICS-2614
-D SGX MiCS-2614 Ozone MOS Sensor
-K OZONE SENSOR
-F http://www.sgxsensortech.com/site/wp-content/uploads/2013/03/1087_Datasheet-MiCS-26142.pdf
+$CMP LT6654
+D Linear Technology LT6654 Precision Wide Supply High Output Drive Low Noise Reference
+K VOLTAGE REFERENCE
+F http://cds.linear.com/docs/en/datasheet/6654fd.pdf
 $ENDCMP
 #
-$CMP MICS-2714
-D SGX MiCS-2714 Nitrogen Dioxide MOS Sensor
-K NITROGEN DIOXIDE SENSOR
-F http://www.sgxsensortech.com/site/wp-content/uploads/2013/03/1107_Datasheet-MiCS-2714.pdf
+$CMP LTC1144
+D Linear Technology LTC 1144 Switched-Capacitor Wide Input Range Voltage Converter with Shutdown
+K VOLTAGE CONVERTER
+F http://cds.linear.com/docs/en/datasheet/1144fa.pdf
 $ENDCMP
 #
-$CMP MICS-4514
-D SGX MiCS-4514 Pollution MOS Sensor
-K POLLUTION SENSOR
-F http://www.sgxsensortech.com/site/wp-content/uploads/2013/03/0278_Datasheet-MiCS-4514.pdf
+$CMP LTC3626
+D 20V, 2.5A Synchronous Monolithic Step-Down Regulator Linear Technology LTC3626 
+K REGULATOR
+F http://cds.linear.com/docs/en/datasheet/3626f.pdf
+$ENDCMP
+#
+$CMP LTC4411
+D Linear Technology LTC4411 2.6A Low Loss Ideal Diode
+K DIODE
+F http://cds.linear.com/docs/en/datasheet/4411fa.pdf
+$ENDCMP
+#
+$CMP LTC4417IGN
+D Linear Technology LTC4417IGN Highest Priority Supply Controller
+K SUPPLY CONTROLLER
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP M95
+D Quectel M95 Quad-band GSM/GPRS module
+K GSM GPRS
+F http://www.quectel.com/product/prodetail.aspx?id=7
+$ENDCMP
+#
+$CMP MCP6401T-E-OT
+D MicroChip MCP6401 1 MHz, 45 µA Operational Amplifier  
+K OPERATIONAL AMPLIFIER
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22229D.pdf
 $ENDCMP
 #
 $CMP MM232R
@@ -191,9 +380,31 @@ K USB SERIAL UART MODULE
 F http://www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_MM232R.pdf
 $ENDCMP
 #
+$CMP MOSFET_P-TO252-3
+K MOFET P CHANNEL
+$ENDCMP
+#
 $CMP MOUNTING_HOLE
 D MOUNTING_HOLE
 K MOUNTING HOLE
+$ENDCMP
+#
+$CMP MS5805-02BA01
+D MEAS MS5805-02BA01 Pressure Sensor
+K PRESSURE SENSOR
+F http://www.meas-spec.com/downloads/MS5805-02BA01.pdf
+$ENDCMP
+#
+$CMP NCP3170
+D ON Semiconductor NCP3170, 3 A, PWM Switching Buck Regulator, 4.5 to 18 V, SOIC-8
+K PWM SWITCHING CONVERTER
+F http://www.onsemi.com/pub_link/Collateral/NCP3170-D.PDF
+$ENDCMP
+#
+$CMP NCP4589DSQ33T1G
+D ON Semiconductor NCP4589DSQ33T1G, 300 mA, Tri-Mode, LDO Linear Voltage Regulator, 3.3 V, SOT-353
+K LDO VOLTAGE REGULATOR
+F http://www.onsemi.com/pub_link/Collateral/NCP4589-D.PDF
 $ENDCMP
 #
 $CMP NO-B4
@@ -208,10 +419,50 @@ K NITROGEN DIOXIDE SENSOR
 F http://www.alphasense.com/environmental-sensors/pdf/NO2B4.pdf
 $ENDCMP
 #
+$CMP NPN-SOT323
+K NPN TRANSISTOR
+$ENDCMP
+#
+$CMP NSB1706DMW5T1G
+D ON Semiconductor NSB1706DMW5T1G Dual Bias Resistor Transistor
+K DUAL TRANSISTOR
+F http://www.onsemi.com/pub_link/Collateral/NSB1706DMW5T1-D.PDF
+$ENDCMP
+#
 $CMP O3-B4
 D Alphasense O3-B4 Ozone 4-Electrode Sensor
 K OZONE SENSOR
 F http://www.alphasense.com/environmental-sensors/pdf/O3B4.pdf
+$ENDCMP
+#
+$CMP OPA354AIDBV
+D Texas Instruments OPA354 250MHz, Rail-to-Rail I/O Operational Amplifier  
+K OPERATIONAL AMPLIFIER
+F http://www.ti.com/lit/ds/symlink/opa354.pdf
+$ENDCMP
+#
+$CMP PCA9517ADP
+D NXP PCA9517ADP Level translating I2C-bus repeater
+K BUS REPEATER
+F http://www.nxp.com/documents/data_sheet/PCA9517A.pdf
+$ENDCMP
+#
+$CMP PCA9538APW
+D NXP PCA9538A Low-voltage 8-bit I2C-bus I/O port with interrupt and reset
+K GPIO EXPANDER
+F http://www.nxp.com/documents/data_sheet/PCA9538A.pdf
+$ENDCMP
+#
+$CMP PCA9554APW
+D NXP PCA9554A 8-bit I2C-bus and SMBus I/O port with interrupt
+K GPIO EXPANDER
+F http://www.nxp.com/documents/data_sheet/PCA9554_9554A.pdf
+$ENDCMP
+#
+$CMP PCA9555APW
+D NXP PCA9555APW Low-voltage 16-bit I2C-bus I/O port with interrupt and weak pull-up
+K GPIO EXPANDER
+F http://www.nxp.com/documents/data_sheet/PCA9555A.pdf
 $ENDCMP
 #
 $CMP PCF2127AT
@@ -226,10 +477,37 @@ K NPN TRANSISTOR
 F http://www.nxp.com/documents/data_sheet/PDTC143X_SER.pdf
 $ENDCMP
 #
+$CMP PNP-SOT223
+K PNP TRANSISTOR
+$ENDCMP
+#
 $CMP PRTR5V0U4Y
 D NXP PRTR5V0U4Y Integrated quad ultra-low capacitance ESD protection
 K ESD PROTECTION
 F http://www.nxp.com/documents/data_sheet/PRTR5V0U4Y.pdf
+$ENDCMP
+#
+$CMP PUMD18
+D NXP NPN/PNP Resistor-equipped Transistors R1=4k7 R2=10k
+K TRANSISTOR
+F http://www.nxp.com/documents/data_sheet/PEMD18_PUMD18.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_DGS-1
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP R-78E3.3-0.5
+D Recom R-78E-3.3-0.5 - 6-28V to 3.3V 500mA - DC/DC Converter
+K CONVERTER
+F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+$CMP RO-053.3S
+D Recom RO-053.3S - 3.3-24V to 3.3V 303mA - DC/DC Converter
+K CONVERTER
+F http://www.recom-power.com/pdf/Econoline/RO.pdf
 $ENDCMP
 #
 $CMP SHT25
@@ -238,10 +516,34 @@ K HUMIDITY TEMPERATURE SENSOR
 F http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT25_Datasheet_V2.pdf
 $ENDCMP
 #
+$CMP SIM800C
+D SIMCom SIM800C quad-band GSM/GPRS module (w/ Bluetooth support)
+K GPRS MODULE
+F http://simcomm2m.com/En/module/detail.aspx?id=74
+$ENDCMP
+#
+$CMP SIM800H
+D SIMCom SIM800H Quad-band GSM/GPRS Module
+K GSM GPRS MODULE
+F http://www.simcom.ee/documents/gsm-gprs/sim800h/SIM800%20Series_AT%20Command%20Manual_V1.01.pdf
+$ENDCMP
+#
 $CMP SIM900
 D SIMCom SIM900 quad-band GSM/GPRS module
 K GSM GPRS
 F http://www.simcom.us/act_admin/supportfile/SIM900-EVB_UGD_V1.01_100114_.pdf
+$ENDCMP
+#
+$CMP SN74CBTLV16212GR
+D Texas Instruments SN74CBTLV16212GR Low-Voltage 24-Bit FET Bus-Exchange Switch
+K BUS EXCHANGE SWITCH
+F http://www.ti.com.cn/cn/lit/ds/symlink/sn74cbtlv16212.pdf
+$ENDCMP
+#
+$CMP SN74CBTLV3257PW
+D Texas Instuments SN74CBTLV3257 Low-Voltage 4-Bit 1-of-2 FET Multiplexer/Demultiplexer
+K MULTIPLEXER DEMULTIPLEXER
+F http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf
 $ENDCMP
 #
 $CMP SP336EEY-L
@@ -256,22 +558,34 @@ K TRANSCEIVER
 F http://www.exar.com/common/content/document.ashx?id=20834&languageid=1033
 $ENDCMP
 #
+$CMP Si8920BC-IP
+D Silicon Labs Si8920BC-IP Isolated Amplifier for current shunt measurement
+K AMPLIFIER
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si8920.pdf
+$ENDCMP
+#
+$CMP TAR5S33U
+D Toshiba TAR5S33U, 500 mA, LDO Linear Voltage Regulator, 3.3 V, SOT-353-5
+K LDO VOLTAGE REGULATOR
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=764&prodName=TAR5S33U
+$ENDCMP
+#
 $CMP TLE2425
 D Texas Instrument TLE2425 Precision Virtual Ground
 K VIRTUAL GROUND
 F http://www.ti.com/lit/ds/symlink/tle2425.pdf
 $ENDCMP
 #
-$CMP TPS54239EDDAX
-D Texas Instruments TPS54239EDDAx, 2-A Synchronous Buck Converter 
-K SYNCHRONOUS BUCK CONVERTER
-F http://www.ti.com/lit/ds/symlink/tps54239e.pdf
+$CMP TLV1117LV28DCYR
+D Texas Instruments TLV1117LV28DCYR Low-Dropout Regulator (LDO)
+K VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/tlv1117lv12.pdf
 $ENDCMP
 #
-$CMP TPS62140RGTX
-D Texas Instruments TPS62140RGTx, 2-A Synchronous Buck Converter 
-K SYNCHRONOUS BUCK CONVERTER
-F http://www.ti.com/lit/ds/symlink/tps62140.pdf
+$CMP TPS54240DGQ
+D Texas Instruments TPS54240 3.5-V to 42-V Step-Down DC - DC Converter
+K DC/DC CONVERTER
+F http://www.ti.com/lit/ds/symlink/tps54240.pdf
 $ENDCMP
 #
 $CMP TPS62177DQC
@@ -283,19 +597,37 @@ $ENDCMP
 $CMP TPS70930-DBV
 D Texas Instruments TPS70930 3.0V Voltage Regulator with Enable
 K VOLTAGE REGULATOR
-F http://www.ti.com/lit/gpn/tps70912
+F http://www.ti.com/lit/ds/symlink/tps709.pdf
 $ENDCMP
 #
 $CMP TPS70950-DBV
 D Texas Instruments TPS70950 5.0V Voltage Regulator with Enable
 K VOLTAGE REGULATOR
-F http://www.ti.com/lit/gpn/tps70912
+F http://www.ti.com/lit/ds/symlink/tps709.pdf
 $ENDCMP
 #
-$CMP TPS709XX-DBV
-D Texas Instruments TPS709xx Voltage Regulator with Enable
+$CMP TPS71550QDCKRQ1
+D Texas Instruments Low-Dropout Linear Regulator (LDO) TPS71550QDCKRQ1
+K LDO VOLTAGE REGULATOR
+F http://www.ti.com/lit/ds/symlink/tps71530-q1.pdf
+$ENDCMP
+#
+$CMP TPS7A6350-Q1
+D Texas Instruments TPS7A6350-Q1 300mA 40V Low-Dropout Regultator
 K VOLTAGE REGULATOR
-F http://www.ti.com/lit/gpn/tps70912
+F http://www.ti.com/lit/ds/symlink/tps7a6350-q1.pdf
+$ENDCMP
+#
+$CMP TPS7A7001DDA
+D Texas Instruments TPS7A7001Very Low Input Very Low Dropout 2-Amp Regulator with Enable 
+K LDO RGULATOR
+F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
+$ENDCMP
+#
+$CMP TS321AILT
+D ST Microelectronics TS321AILT Low-power single Operational Amplifier  
+K OPERATIONAL AMPLIFIER
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001647.pdf
 $ENDCMP
 #
 $CMP TXB0108PWR
@@ -308,156 +640,6 @@ $CMP UFL-R-SMT-1(10)
 D HRS UFL-R-SMT-1(10) UFL Coaxial Straight Jack Connector
 K JACK CONNECTOR
 F http://www.hirose.co.jp/cataloge_hp/e32119372.pdf
-$ENDCMP
-#
-$CMP M95
-D Quectel M95 Quad-band GSM/GPRS module
-K GSM GPRS
-F http://www.quectel.com/product/prodetail.aspx?id=7
-$ENDCMP
-#
-$CMP C707_10M006_049_2
-D Amphenol-TuchelElectronics C707 10M006 049 2, 6-circuit SIM Card HOLDER
-K SIM CARD HOLDER
-F http://www.amphenol.info/downloads/C707_10M006_049_2.pdf
-$ENDCMP
-#
-$CMP LP2985IM5-3.3/NOPB
-D Texas Instruments LP2985 3.3V Ultra-Low Dropout Regulator
-K VOLTAGE REGULATOR
-F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
-$ENDCMP
-#
-$CMP BMP180
-D Bosch BMP180, Digital Pressure Sensor I2C
-K PRESSURE SENSOR
-F https://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf
-$ENDCMP
-#
-$CMP LP2985IM5-5.0/NOPB
-D Texas Instruments LP2985 5.0V Ultra-Low Dropout Regulator
-K VOLTAGE REGULATOR
-F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
-$ENDCMP
-#
-$CMP BTM7810K
-D infinenon BTM7810K H-Bridge Driver
-K H-BRIDGE DRIVER 
-F http://www.infineon.com/dgdl/BTM7810K_DS_10.pdf?folderId=db3a3043156fd5730116144c5d101c30&fileId=db3a30431be39b97011bea18e9217fee&ack=t
-$ENDCMP
-#
-$CMP ATMEGA168A-AU
-D Atmel ATmega168A-AU Low-Power 8-bit Microcontroller
-K MICROCONTROLLER
-F http://www.atmel.com/Images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet.pdf
-$ENDCMP
-#
-$CMP LTC3626
-D 20V, 2.5A Synchronous Monolithic Step-Down Regulator Linear Technology LTC3626 
-K REGULATOR
-F http://cds.linear.com/docs/en/datasheet/3626f.pdf
-$ENDCMP
-#
-$CMP LM43602
-D Texas Instruments LM43602, 3.5V-36V 2A Synchronous Step-Down Voltage Converter
-K VOLTAGE CONVERTER
-F http://www.ti.com/lit/ds/symlink/lm43602.pdf
-$ENDCMP
-#
-$CMP TPS7A6350-Q1
-D Texas Instruments TPS7A6350-Q1 300mA 40V Low-Dropout Regultator
-K VOLTAGE REGULATOR
-F http://www.ti.com/lit/ds/symlink/tps7a6350-q1.pdf
-$ENDCMP
-#
-$CMP BZX84
-D NXP BZX84 Low-Power Voltage Regulator Diode
-K ZENER DIODE
-F http://www.nxp.com/documents/data_sheet/BZX84_SER.pdf
-$ENDCMP
-#
-$CMP NCP4589DSQ33T1G
-D ON Semiconductor NCP4589DSQ33T1G, 300 mA, Tri-Mode, LDO Linear Voltage Regulator, 3.3 V, SOT-353
-K LDO VOLTAGE REGULATOR
-F http://www.onsemi.com/pub_link/Collateral/NCP4589-D.PDF
-$ENDCMP
-#
-$CMP TLV1117LV28DCYR
-D Texas Instruments TLV1117LV28DCYR Low-Dropout Regulator (LDO)
-K VOLTAGE REGULATOR
-F http://www.ti.com/lit/ds/symlink/tlv1117lv12.pdf
-$ENDCMP
-#
-$CMP TS321AILT
-D ST Microelectronics TS321AILT Low-power single Operational Amplifier  
-K OPERATIONAL AMPLIFIER
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001647.pdf
-$ENDCMP
-#
-$CMP LM7341MF-NOPB
-D Texas Instruments LM7341MF/NOPB Operational Amplifier
-K OPERATIONAL AMPLIFIER
-F http://www.ti.com/lit/ds/symlink/lm7341.pdf
-$ENDCMP
-#
-$CMP NPN-SOT323
-K NPN TRANSISTOR
-$ENDCMP
-#
-$CMP MOSFET_P-TO252-3
-K MOFET P CHANNEL
-$ENDCMP
-#
-$CMP HCNR201-300E
-D Avago HCNR201-300E High-Linearity Analog Optocoupler
-K OCTOCOUPLER
-F http://www.avagotech.com/docs/AV02-0886EN
-$ENDCMP
-#
-$CMP PNP-SOT223
-K PNP TRANSISTOR
-$ENDCMP
-#
-$CMP IFX27001TF-V50
-D Infineon IFX27001TF V50 Linear Voltage Regulator
-K VOLTAGE REGULATOR
-F http://www.infineon.com/dgdl/Infineon-IFX27001-DS-v01_01-en.pdf?folderId=5546d4694909da4801490a07012f053b&fileId=db3a304320d39d590120f62f022a6a03&ack=t
-$ENDCMP
-#
-$CMP LTC1144
-D Linear Technology LTC 1144 Switched-Capacitor Wide Input Range Voltage Converter with Shutdown
-K VOLTAGE CONVERTER
-F http://cds.linear.com/docs/en/datasheet/1144fa.pdf
-$ENDCMP
-#
-$CMP LT6654
-D Linear Technology LT6654 Precision Wide Supply High Output Drive Low Noise Reference
-K VOLTAGE REFERENCE
-F http://cds.linear.com/docs/en/datasheet/6654fd.pdf
-$ENDCMP
-#
-$CMP LT1054
-D Linear Technology LT1054 Switched-Capacitor Voltage Converter with Regulator
-K VOLTAGE CONVERTER REGULATOR
-F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
-$ENDCMP
-#
-$CMP 47553-0001
-D Molex 47553-0001, 1.27mm-pitch 6-circuit SIM Card HOLDER
-K SIM CARD HOLDER
-F http://www.molex.com/webdocs/datasheets/pdf/en-us/0475530001_MEMORY_CARD_SOCKET.pdf
-$ENDCMP
-#
-$CMP SIM800H
-D SIMCom SIM800H Quad-band GSM/GPRS Module
-K GSM GPRS MODULE
-F http://www.simcom.ee/documents/gsm-gprs/sim800h/SIM800%20Series_AT%20Command%20Manual_V1.01.pdf
-$ENDCMP
-#
-$CMP EMIF03-SIM02M8
-D ST EMIF03-SIM02M8 SIM card EMI Low-pass Filter
-K SIM CARD ESD SUPRESSOR FILTER
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00172780.pdf
 $ENDCMP
 #
 #End Doc Library
