@@ -1,7 +1,6 @@
 Acronet-KiCAD-Libraries
 =======================
 
-This folder contains LIB, DCM and MOD files (for [KiCad EDA Software Suite](http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite)) developed for Acronet Boards.
 
 # LICENSE #
 
@@ -13,7 +12,7 @@ This folder contains LIB, DCM and MOD files (for [KiCad EDA Software Suite](http
 [2]: http://i.creativecommons.org/l/by-sa/4.0/88x31.png (Creative Commons Attribution-ShareAlike 4.0 Unported License.)
 
 [3]: http://freedomdefined.org/OSHW
-[4]: http://ultimachine.com/sites/default/files/images/OpenHardwareLogo.thumbnail.png
+[4]: http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-antipixel.png
 
 
 
