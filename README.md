@@ -1,6 +1,7 @@
 Acronet-KiCAD-Libraries
 =======================
 
+This folder contains *.lib*, *.dcm*, *.mod* and *.kicad_mod* [files](http://kicad-pcb.org/help/file-formats/) to design [AcroBoards](http://www.acronet.cc) using [KiCad EDA Software Suite](http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite).
 
 # LICENSE #
 
