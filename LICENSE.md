@@ -8,8 +8,7 @@
 [2]: http://i.creativecommons.org/l/by-sa/4.0/88x31.png (Creative Commons Attribution-ShareAlike 4.0 Unported License.)
 
 [3]: http://freedomdefined.org/OSHW
-[4]: http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png
-
+[4]: http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-antipixel.png
 
 ----------
 
